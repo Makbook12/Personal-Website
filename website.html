@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="website.css"/>
+</head>
+<body>
+
+  <header>
+    <img src="c:\Users\mkand\OneDrive\Pictures\Screenshots\Camera Roll\WhatsApp Image 2024-02-11 at 18.55.36_cdbe054d.jpg" alt="Mayank Kandpal" class="profile-img" />
+    <h1>Hi, I'm Mayank Kandpal</h1>
+    <p>Web Developer | Designer | Learner</p>
+    <div class="social-links">
+    <a href="https://github.com/Makbook12" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" class="icon" />
+    </a>
+    <a href="https://www.linkedin.com/in/mayank-kandpal-9aaaa1251/" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" class="icon" />
+    </a>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a passionate web developer with experience in building responsive websites using HTML, CSS, and JavaScript. I love turning ideas into reality through code.I have worked in Full Stack Projects as well to improve my skills in that regard.
+    </p>
+  </section>
+
+  <section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>Used Cars Price Predictor</h3>
+    <p>A machine learning project using XGBoost Regressor that allows users to predict the price of second-hand cars.</p>
+    <a href="https://github.com/Makbook12/Used-Cars-Price-Predictor" target="_blank" class="code-link">
+      🔗 View Code on GitHub
+    </a>
+  </div>
+
+  <div class="project-card">
+    <h3>Personal Portfolio</h3>
+    <p>A simple, responsive personal website built using HTML, CSS, and JavaScript. It showcases my projects, skills, and contact information.</p>
+    <a href="https://github.com/Makbook12/Personal-Website" target="_blank" class="code-link">
+      🌐 View Code on GitHub
+    </a>
+  </div>
+</section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="response"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mayank Kandpal</p>
+  </footer>
+
+  <script src="website.js"></script>
+</body>
+</html>
