@@ -12,6 +12,6 @@ Welcome to my personal portfolio! I am a **Web Developer** passionate about buil
 ## Contact
 
 - **Email**: mkandpal27@gmail.com
-- **GitHub**: [mayank-kandpal](https://github.com/mayank-kandpal)
+- **GitHub**: [mayank-kandpal](https://github.com/Makbook12)
 - **LinkedIn**: [Mayank Kandpal](https://www.linkedin.com/in/mayank-kandpal)
 
